@@ -1,0 +1,123 @@
+body {
+	//height: 100%;
+	 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg1.jpeg)no-repeat center;
+	  background-color:rgba(51,51,51,0.5);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-attachment: fixed;
+
+}
+
+body.my-login-page {
+	
+	font-size: 14px;
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 15px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 30px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+//.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	//box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+.navColor {
+  background-color:#6c757d;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255,255,255);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#F00;
+}
+
+.card-body .card-title a {
+  color: #F00;
+  text-decoration: none;
+}
+
+.card-text{
+ font-weight: bold;
+}
+.card-Category{
+  text-transform: capitalize; 
+  font-weight:normal;
+}
+.card-price{
+  color: rgb(68, 218, 168);
+  font-weight:normal;
+}
+.fontColor{
+  color: #FFF;
+  padding: 0px 5px;
+}
+.fontColor:hover{
+ color:rgba(255, 0, 0, 0.897);
+}
+
+form i {
+    //margin-left: -30px;
+    cursor: pointer;
+}
